@@ -1,0 +1,6 @@
+services:
+  gym_exporter:
+    build: .
+    environment:
+        email: example@example.com
+        pw: password
